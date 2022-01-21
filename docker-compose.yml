@@ -1,0 +1,10 @@
+version: '3.9'
+
+services:
+  app:
+    image: olegkuro....
+    ports:
+      - "80:5000"
+    volumes:
+      - ./data:/code/data
+    restart: unless-stopped
