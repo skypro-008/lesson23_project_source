@@ -1,7 +1,7 @@
 import os
 
 from flask import Flask, request, Response
-from .helpers import get_response
+from helpers import get_response
 
 app = Flask(__name__)
 
