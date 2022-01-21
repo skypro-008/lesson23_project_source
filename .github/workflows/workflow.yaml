@@ -39,5 +39,5 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           password: ${{ secrets.SSH_PASSWORD }}
           script: |
-            cd skypro-hw
+            cd skyprohw
             echo ${{ secrets.SSH_PASSWORD }} | sudo -S docker-compose up -d
